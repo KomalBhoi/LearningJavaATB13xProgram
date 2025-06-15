@@ -21,7 +21,5 @@ public class Lab014_AllOperators {
         //Imp Operators
         //++,--, - Increment and Decrement operator
         //Ternary Operator - ?:
-
-
     }
 }
