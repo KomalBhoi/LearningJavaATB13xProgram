@@ -11,7 +11,7 @@ public class Lab080_Task_TriangleClassifier {
         int sd2 = scanner.nextInt();
         int sd3 =scanner.nextInt();
 
-        if(sd1 == sd2 && sd2 == sd3 && sd1 == sd3){
+        if(sd1 == sd2 && sd2 == sd3){ // && sd1 == sd3
             System.out.println("The triangle is equilateral.");
         }
         else if(sd1 == sd2 || sd2 == sd3 || sd1 == sd3){
