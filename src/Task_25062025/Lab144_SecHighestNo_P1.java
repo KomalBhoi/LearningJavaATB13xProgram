@@ -1,4 +1,4 @@
-package Task_26062025;
+package Task_25062025;
 
 public class Lab144_SecHighestNo_P1 {
     public static void main(String[] args) {
