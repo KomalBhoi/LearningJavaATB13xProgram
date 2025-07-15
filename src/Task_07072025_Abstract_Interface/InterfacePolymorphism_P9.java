@@ -10,7 +10,7 @@ public class InterfacePolymorphism_P9 {
 }
 
 interface Playable{
-    default void play(String instrument){
+    default void play(){
     }
 }
 
