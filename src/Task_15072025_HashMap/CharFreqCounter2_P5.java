@@ -1,4 +1,4 @@
-package Task_20072025_HashMap;
+package Task_15072025_HashMap;
 
 import java.util.HashMap;
 import java.util.Map;
