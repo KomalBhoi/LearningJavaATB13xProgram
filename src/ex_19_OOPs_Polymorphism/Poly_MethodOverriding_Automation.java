@@ -4,21 +4,21 @@ import ex_18_OOPs_Inheritance.CommonToAll;
 
 public class Poly_MethodOverriding_Automation {
     public static void main(String[] args) {
-    chromeTC c1 = new chromeTC();
-    c1.openBrowser();
+        chromeTC c1 = new chromeTC();
+        c1.openBrowser();
 
-    Firefox f1 = new Firefox();
-    f1.openBrowser();
+        Firefox f1 = new Firefox();
+        f1.openBrowser();
 
-    commonToAll commonToAll = new commonToAll();
-    commonToAll.openBrowser();
+        commonToAll commonToAll = new commonToAll();
+        commonToAll.openBrowser();
 
-    //Dynamic Dispatch
+        //Dynamic Dispatch
         commonToAll c2 = new chromeTC();
-    c2.openBrowser();
+        c2.openBrowser();
 
-    commonToAll c3 = new Firefox();
-    c3.openBrowser();
+        commonToAll c3 = new Firefox();
+        c3.openBrowser();
     }
 }
 
